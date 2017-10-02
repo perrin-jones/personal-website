@@ -31,6 +31,35 @@
 
 /* General
 ==================================================*/
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: inline;
+    color: #393939;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #ffbf00;
+;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: white;
+}
 
 html,
 body {
@@ -430,7 +459,7 @@ h5 {
 
 .box-intro .table-cell {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: 0%;
 }
 
 .box-intro em {
